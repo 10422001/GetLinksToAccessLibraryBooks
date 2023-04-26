@@ -10,11 +10,8 @@ print $html_name
 # 		print 'please add links to site'
 # 		
 # else 
-read -A arr
-print $arr[1]
-print $arr[2]
-# print $arr[3]
-    cat start.txt > $html_name
+#
+cat start.txt > $html_name
 for link in "$*"
 		do
 				print 'inside for each'
