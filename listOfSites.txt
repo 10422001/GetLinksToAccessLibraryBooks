@@ -1,1 +1,6 @@
-https://library.vgu.edu.vn/databases-ejournals/ https://library.vgu.edu.vn/databases-ejournals/
+https://library.vgu.edu.vn/databases-ejournals/ 
+https://library.vgu.edu.vn/books-ebooks/
+https://library.vgu.edu.vn/vgu-research-repository/
+https://library.vgu.edu.vn/newspapers-journals/
+https://library.vgu.edu.vn/etheses/
+https://library.vgu.edu.vn/book-exchange-corner/
