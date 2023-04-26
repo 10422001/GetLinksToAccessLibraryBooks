@@ -7,15 +7,16 @@ print $html_name
 # if [[ -z $1 ]]
 # then
 #
-# 		print 'please add links to site'
+# 		https://library.vgu.edu.vn/books-ebooks/https://library.vgu.edu.vn/books-ebooks/print 'please add links to site'
 # 		
 # else 
 #
+
 cat start.txt > $html_name
 for link in "$*"
 		do
-				print 'inside for each'
-				print $link
+				# print 'inside for each'
+				# print $link
 				curl $link | grep 'Link for access' | grep 'href[*]*' >> $html_name
 		done
     cat end.txt >> $html_name
