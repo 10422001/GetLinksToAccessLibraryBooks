@@ -15,3 +15,4 @@ cat end.txt >> $html_name
 echo "open $html_name"
 open $html_name
 
+# echo "alias SB='zsh oneSiteLinksIntoHtml.sh $(cat listOfSites.txt | fzf)'"
